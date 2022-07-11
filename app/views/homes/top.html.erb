@@ -1,45 +1,50 @@
 <body>
-	<header>
-	<h1>Art Portfolio</h1>
-	<i class="fa-solid fa-grid-horizontal"></i>
-	<p>Categories</p>
-	<i class="fa-solid fa-circle-question">
-	<p></i>QA</p>
+	<header class="flex items-center mb-4">
+		<h1 class="text-4xl font-bold p-2">Art Portfolio</h1>
+		<p class="text-xl p-2"><span class="mr-1"><i class="fa-solid fa-cubes-stacked"></i></span>Categories</p>
+		<p class="text-xl p-2"><span class="mr-1"><i class="fa-solid fa-circle-question"></i></span>QA</p>
 	</header>
 
-	<div>
-		<div>
-			<h2>Welcome to</h2>
-			<h2>my Portfolio!!</h2>
-			<p>sic de isto et tutius perducit ad</p>
-			<p>actum ipsum, ut si dico "Ego</p>
-			<p>autem vadam lavari, ut mens</p>
-			<button>Go</button>
+	<div class="flex items-center bg-gray-200 w-screen my-4">
+		<div class="ml-8 my-2  mr-24">
+			<h2 class="text-2xl font-bold">Welcome to</h2>
+			<h2 class="text-2xl font-bold">&nbsp;my Portfolio!!</h2>
+			<div class="my-4">
+				<p class="text-lg">&nbsp;sic de isto et tutius perducit ad</p>
+				<p class="text-lg">&nbsp;actum ipsum, ut si dico "Ego</p>
+				<p class="text-lg">&nbsp;autem vadam lavari, ut mens</p>
+			</div>
+			<div class="my-4">
+				<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-24"">Go</button>
+			</div>
 		</div>
-		<div>
+		<div class="m-2">
 			<img src="//images.weserv.nl/?url=images.weserv.nl/lichtenstein.jpg&w=300&h=300">
 		</div>
 	</div>
 
-	<div>
-		<h3>Music Example</h3>
-		<p>Ponam in culpa idiota aliis</p>
-		<i class="fa-solid fa-pause"></i>
-		<input type="range" name="volume" min="0" max="100">
-		<p>Sollicitant homines non</p>
-		<i class="fa-solid fa-play"></i>
-		<input type="range" name="volume" min="0" max="0">
-	</div>
-
-	<footer>
-		<div>
-			<p>ArtPortfolio</p>
+	<div class="ml-16">
+		<h2 class="text-3xl mt-12 mb-2">Music Example</h2>
+		<div class="my-2">
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;Ponam in culpa idiota aliis</p>
+			<i class="fa-solid fa-pause"></i>
+			<input type="range" name="volume" min="0" max="100" class="w-2/3">
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;Sollicitant homines non</p>
+			<i class="fa-solid fa-play"></i>
+			<input type="range" name="volume" min="0" max="0" class="w-2/3">
 		</div>
+		<div class="h-36"></div>
+	</div>
+	<footer class="flex pt-4 border-t-2">
 		<div>
-			<i class="fa-brands fa-twitter"></i>
-			<i class="fa-brands fa-facebook"></i>
-			<i class="fa-brands fa-youtube"></i>
-			<i class="fa-brands fa-instagram"></i>
+			<p class="font-bold">ArtPortfolio</p>
+		</div>
+		<div class="flex-grow"></div>
+		<div class="flex">
+			<span class="mx-2"><i class="fa-brands fa-twitter fa-2x"></i></span>
+			<span class="mx-2"><i class="fa-brands fa-facebook fa-2x"></i></span>
+			<span class="mx-2"><i class="fa-brands fa-youtube fa-2x"></i></span>
+			<span class="mx-2"><i class="fa-brands fa-instagram fa-2x"></i></span>
 		</div>
 	</footer>
 </body>
